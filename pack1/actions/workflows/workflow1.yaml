@@ -1,0 +1,7 @@
+version: 1.0
+description: Repro config error workflow.
+tasks:
+  task1:
+    action: pack2.action1
+output:
+  - stdout: <% task(task1).output %>

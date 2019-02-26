@@ -1,0 +1,8 @@
+---
+name: workflow1
+pack: pack1
+description: Run repro workflow
+runner_type: orquesta
+entry_point: workflows/workflow1.yaml
+enabled: true
+parameters: {}
